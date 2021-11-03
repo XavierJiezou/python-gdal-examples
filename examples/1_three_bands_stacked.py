@@ -55,3 +55,10 @@ if __name__ == '__main__':
         num_band=3,
         out_path='./osgeopy-data/Landsat/Washington/p047r027_7t20000730_z10_natc.tif'
     )
+    # three_bands_stacked(
+    #     band1_fn='./osgeopy-data/Landsat/Beijing/LC08_L1TP_123032_20210907_20210907_01_RT_B4.tif',  # Red
+    #     band2_fn='./osgeopy-data/Landsat/Beijing/LC08_L1TP_123032_20210907_20210907_01_RT_B3.tif',  # Green
+    #     band3_fn='./osgeopy-data/Landsat/Beijing/LC08_L1TP_123032_20210907_20210907_01_RT_B2.tif',  # Blue
+    #     num_band=3,
+    #     out_path='./osgeopy-data/Landsat/Beijing/LC08_L1TP_123032_20210907_20210907_01_RT_NA.tif'
+    # )
