@@ -1,0 +1,31 @@
+<VRTDataset rasterXSize="579" rasterYSize="741">
+  <SRS>PROJCS["WGS 84 / UTM zone 10N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-123],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","32610"]]</SRS>
+  <GeoTransform> 5.3199525000000000e+005, 2.8500000000000000e+001, 0.0000000000000000e+000, 5.2626247500000000e+006, 0.0000000000000000e+000,-2.8500000000000000e+001</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">nat_color.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="8849" RasterYSize="8023" DataType="Byte" BlockXSize="8849" BlockYSize="1" />
+      <SrcRect xOff="6606" yOff="3753" xSize="579" ySize="741" />
+      <DstRect xOff="0" yOff="0" xSize="579" ySize="741" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">nat_color.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="8849" RasterYSize="8023" DataType="Byte" BlockXSize="8849" BlockYSize="1" />
+      <SrcRect xOff="6606" yOff="3753" xSize="579" ySize="741" />
+      <DstRect xOff="0" yOff="0" xSize="579" ySize="741" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">nat_color.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="8849" RasterYSize="8023" DataType="Byte" BlockXSize="8849" BlockYSize="1" />
+      <SrcRect xOff="6606" yOff="3753" xSize="579" ySize="741" />
+      <DstRect xOff="0" yOff="0" xSize="579" ySize="741" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
